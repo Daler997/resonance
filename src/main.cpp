@@ -34,8 +34,8 @@ int main()
     HUD hud;
 
     Keycard keycard(
-        {600.f,200.f}
-    );
+        {600.f, 200.f},
+        inventory);
 
     objects.push_back(&generator);
     objects.push_back(&terminal);
@@ -66,6 +66,7 @@ int main()
                             objects,
                             player.getPosition());
 
+
                     if (object)
                     {
                         object->interact();
@@ -86,9 +87,22 @@ int main()
             world.getWalls(),
             door
         );
+
+        auto nearby =
+            InteractionManager::find(
+                objects,
+                player.getPosition());
+
+        std::string hint = "";
+
+        if (nearby)
+        {
+            hint = nearby->getHint();
+        }
+
         hud.update(
-            inventory.hasKeycard()
-        );
+            inventory.hasKeycard(),
+            hint);
 
         camera.setCenter(player.getPosition());
         window.setView(camera);

@@ -2,7 +2,9 @@
 
 #include <SFML/Graphics.hpp>
 #include <cmath>
+
 #include "Interactable.hpp"
+#include "Inventory.hpp"
 
 
 class Keycard : public Interactable
@@ -16,12 +18,19 @@ private:
 
     sf::RectangleShape shape;
 
+    Inventory* inventory;
+
 
 public:
 
-    Keycard(sf::Vector2f pos)
+
+    Keycard(
+        sf::Vector2f pos,
+        Inventory& inv
+    )
         :
-        position(pos)
+        position(pos),
+        inventory(&inv)
     {
 
         shape.setSize(
@@ -53,7 +62,7 @@ public:
 
     float distanceTo(
         sf::Vector2f player
-    ) const
+    ) const override
     {
 
         float dx =
@@ -68,10 +77,21 @@ public:
         );
     }
 
+
+
     void interact() override
     {
-        collected = true;
+
+        if(!collected)
+        {
+            collected = true;
+
+            inventory->addKeycard();
+        }
+
     }
+
+
 
     bool isCollected() const
     {
@@ -84,12 +104,20 @@ public:
         sf::RenderWindow& window
     ) const override
     {
+
         if(!collected)
             window.draw(shape);
+
     }
+
+
 
     std::string getHint() const override
     {
+        if(collected)
+            return "";
+
         return "[E] Pick up keycard";
     }
+
 };

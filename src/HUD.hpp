@@ -2,6 +2,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <stdexcept>
+#include <string>
 
 
 class HUD
@@ -32,23 +33,14 @@ public:
         }
 
 
-        text.setCharacterSize(
-            24
-        );
-
+        text.setCharacterSize(24);
 
         text.setFillColor(
             sf::Color::White
         );
 
-
         text.setPosition(
             {20.f,20.f}
-        );
-
-
-        text.setString(
-            "ACCESS CARD: NONE"
         );
 
     }
@@ -56,23 +48,24 @@ public:
 
 
     void update(
-        bool hasKeycard
+        bool hasKeycard,
+        const std::string& hint
     )
     {
 
-        if(hasKeycard)
-        {
-            text.setString(
-                "ACCESS CARD: OK"
-            );
-        }
+        std::string result;
 
+
+        if(hasKeycard)
+            result += "ACCESS CARD: OK\n";
         else
-        {
-            text.setString(
-                "ACCESS CARD: NONE"
-            );
-        }
+            result += "ACCESS CARD: NONE\n";
+
+
+        result += hint;
+
+
+        text.setString(result);
 
     }
 
@@ -86,7 +79,6 @@ public:
         window.setView(
             window.getDefaultView()
         );
-
 
         window.draw(text);
 
