@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/RESONANCE/build/_deps/sheenbidi-build",
+  "command": "D:\\msys2\\ucrt64\\bin\\cc.exe -DSB_CONFIG_UNITY @CMakeFiles\\SheenBidi.dir\\includes_C.rsp -w -o CMakeFiles\\SheenBidi.dir\\Source\\SheenBidi.c.obj -c D:\\RESONANCE\\build\\_deps\\sheenbidi-src\\Source\\SheenBidi.c",
+  "file": "D:/RESONANCE/build/_deps/sheenbidi-src/Source/SheenBidi.c",
+  "output": "_deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/Source/SheenBidi.c.obj"
+}
+]

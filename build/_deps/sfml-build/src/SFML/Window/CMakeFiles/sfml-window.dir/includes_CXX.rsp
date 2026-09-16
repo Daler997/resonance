@@ -1,0 +1,1 @@
+-I"D:/RESONANCE/build/_deps/sfml-src/include" -I"D:/RESONANCE/build/_deps/sfml-src/src" -isystem "D:/RESONANCE/build/_deps/sfml-src/extlibs/headers/glad/include" -isystem "D:/RESONANCE/build/_deps/sfml-src/extlibs/headers/vulkan"

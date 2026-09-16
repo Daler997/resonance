@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/RESONANCE/build/_deps/sfml-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

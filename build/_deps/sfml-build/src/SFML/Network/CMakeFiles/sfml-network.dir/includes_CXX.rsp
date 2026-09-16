@@ -1,0 +1,1 @@
+-I"D:/RESONANCE/build/_deps/sfml-src/include" -I"D:/RESONANCE/build/_deps/sfml-src/src" -isystem "D:/RESONANCE/build/_deps/sfml-src/extlibs/headers/wepoll" -isystem "D:/RESONANCE/build/_deps/libssh2-src/include" -isystem "D:/RESONANCE/build/_deps/mbedtls-src/include"

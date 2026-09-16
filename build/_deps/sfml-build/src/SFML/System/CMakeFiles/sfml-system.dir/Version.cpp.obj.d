@@ -1,0 +1,65 @@
+_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Version.cpp.obj: \
+ D:\RESONANCE\build\_deps\sfml-src\src\SFML\System\Version.cpp \
+ D:/RESONANCE/build/_deps/sfml-src/include/SFML/System/Version.hpp \
+ D:/RESONANCE/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ D:/RESONANCE/build/_deps/sfml-src/include/SFML/Config.hpp \
+ D:/msys2/ucrt64/include/c++/16.1.0/string_view \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/version.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/os_defines.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/pstl/pstl_config.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/char_traits.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/postypes.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/cwchar \
+ D:/msys2/ucrt64/include/wchar.h D:/msys2/ucrt64/include/corecrt.h \
+ D:/msys2/ucrt64/include/_mingw.h D:/msys2/ucrt64/include/_mingw_mac.h \
+ D:/msys2/ucrt64/include/_mingw_secapi.h D:/msys2/ucrt64/include/vadefs.h \
+ D:/msys2/ucrt64/include/corecrt_stdio_config.h \
+ D:/msys2/ucrt64/include/corecrt_wconio.h \
+ D:/msys2/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stddef.h \
+ D:/msys2/ucrt64/include/stddef.h D:/msys2/ucrt64/include/crtdefs.h \
+ D:/msys2/ucrt64/include/sec_api/wconio_s.h \
+ D:/msys2/ucrt64/include/corecrt_wstdlib.h \
+ D:/msys2/ucrt64/include/corecrt_wctype.h \
+ D:/msys2/ucrt64/include/_mingw_off_t.h \
+ D:/msys2/ucrt64/include/_mingw_stat64.h \
+ D:/msys2/ucrt64/include/swprintf.inl \
+ D:/msys2/ucrt64/include/sec_api/wchar_s.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/type_traits \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/stdexcept_throw.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/exception_defines.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/stdexcept_throwfwd.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/functional_hash.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/hash_bytes.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/range_access.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/initializer_list \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/stl_iterator.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/cpp_type_traits.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/stl_iterator_base_types.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/ext/type_traits.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/move.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/ptr_traits.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/stl_algobase.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/ext/numeric_traits.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/stl_pair.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/utility.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/stl_iterator_base_funcs.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/concept_check.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/debug/assertions.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/debug/debug.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/predefined_ops.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/stl_function.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/backward/binders.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bit \
+ D:/msys2/ucrt64/include/c++/16.1.0/concepts \
+ D:/msys2/ucrt64/include/c++/16.1.0/iosfwd \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/requires_hosted.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/stringfwd.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/memoryfwd.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/ostream_insert.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/cxxabi_forced.h \
+ D:/msys2/ucrt64/include/c++/16.1.0/bits/string_view.tcc \
+ D:/msys2/ucrt64/include/c++/16.1.0/cstdint \
+ D:/msys2/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdint.h \
+ D:/msys2/ucrt64/include/stdint.h

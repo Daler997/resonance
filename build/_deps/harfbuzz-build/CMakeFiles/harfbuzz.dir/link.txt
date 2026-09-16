@@ -1,0 +1,2 @@
+D:\msys2\ucrt64\bin\ar.exe qc ..\sfml-build\lib\libharfbuzz.a CMakeFiles/harfbuzz.dir/src/harfbuzz.cc.obj
+D:\msys2\ucrt64\bin\ranlib.exe ..\sfml-build\lib\libharfbuzz.a

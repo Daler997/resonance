@@ -1,0 +1,1 @@
+-I"D:/RESONANCE/build/_deps/mbedtls-src/library" -I"D:/RESONANCE/build/_deps/mbedtls-build/library" -isystem "D:/RESONANCE/build/_deps/mbedtls-src/include"

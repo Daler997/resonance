@@ -1,0 +1,1 @@
+-I"D:/RESONANCE/build/_deps/freetype-build/include/freetype/config" -isystem "D:/RESONANCE/build/_deps/freetype-build/include" -isystem "D:/RESONANCE/build/_deps/freetype-src/include" -isystem "D:/RESONANCE/build/_deps/harfbuzz-src/src"
