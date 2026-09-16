@@ -161,6 +161,36 @@ CMakeFiles/Resonance.dir/src/World.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Resonance.dir/src/World.cpp.s"
 	D:\msys2\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RESONANCE\src\World.cpp -o CMakeFiles\Resonance.dir\src\World.cpp.s
 
+CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.obj: CMakeFiles/Resonance.dir/flags.make
+CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.obj: CMakeFiles/Resonance.dir/includes_CXX.rsp
+CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.obj: D:/RESONANCE/src/ResonancePulse.cpp
+CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.obj: CMakeFiles/Resonance.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.obj"
+	D:\msys2\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.obj -MF CMakeFiles\Resonance.dir\src\ResonancePulse.cpp.obj.d -o CMakeFiles\Resonance.dir\src\ResonancePulse.cpp.obj -c D:\RESONANCE\src\ResonancePulse.cpp
+
+CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.i"
+	D:\msys2\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RESONANCE\src\ResonancePulse.cpp > CMakeFiles\Resonance.dir\src\ResonancePulse.cpp.i
+
+CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.s"
+	D:\msys2\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RESONANCE\src\ResonancePulse.cpp -o CMakeFiles\Resonance.dir\src\ResonancePulse.cpp.s
+
+CMakeFiles/Resonance.dir/src/Anomaly.cpp.obj: CMakeFiles/Resonance.dir/flags.make
+CMakeFiles/Resonance.dir/src/Anomaly.cpp.obj: CMakeFiles/Resonance.dir/includes_CXX.rsp
+CMakeFiles/Resonance.dir/src/Anomaly.cpp.obj: D:/RESONANCE/src/Anomaly.cpp
+CMakeFiles/Resonance.dir/src/Anomaly.cpp.obj: CMakeFiles/Resonance.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Resonance.dir/src/Anomaly.cpp.obj"
+	D:\msys2\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Resonance.dir/src/Anomaly.cpp.obj -MF CMakeFiles\Resonance.dir\src\Anomaly.cpp.obj.d -o CMakeFiles\Resonance.dir\src\Anomaly.cpp.obj -c D:\RESONANCE\src\Anomaly.cpp
+
+CMakeFiles/Resonance.dir/src/Anomaly.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Resonance.dir/src/Anomaly.cpp.i"
+	D:\msys2\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RESONANCE\src\Anomaly.cpp > CMakeFiles\Resonance.dir\src\Anomaly.cpp.i
+
+CMakeFiles/Resonance.dir/src/Anomaly.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Resonance.dir/src/Anomaly.cpp.s"
+	D:\msys2\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RESONANCE\src\Anomaly.cpp -o CMakeFiles\Resonance.dir\src\Anomaly.cpp.s
+
 # Object files for target Resonance
 Resonance_OBJECTS = \
 "CMakeFiles/Resonance.dir/src/main.cpp.obj" \
@@ -168,7 +198,9 @@ Resonance_OBJECTS = \
 "CMakeFiles/Resonance.dir/src/Door.cpp.obj" \
 "CMakeFiles/Resonance.dir/src/Generator.cpp.obj" \
 "CMakeFiles/Resonance.dir/src/Terminal.cpp.obj" \
-"CMakeFiles/Resonance.dir/src/World.cpp.obj"
+"CMakeFiles/Resonance.dir/src/World.cpp.obj" \
+"CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.obj" \
+"CMakeFiles/Resonance.dir/src/Anomaly.cpp.obj"
 
 # External object files for target Resonance
 Resonance_EXTERNAL_OBJECTS =
@@ -179,6 +211,8 @@ Resonance.exe: CMakeFiles/Resonance.dir/src/Door.cpp.obj
 Resonance.exe: CMakeFiles/Resonance.dir/src/Generator.cpp.obj
 Resonance.exe: CMakeFiles/Resonance.dir/src/Terminal.cpp.obj
 Resonance.exe: CMakeFiles/Resonance.dir/src/World.cpp.obj
+Resonance.exe: CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.obj
+Resonance.exe: CMakeFiles/Resonance.dir/src/Anomaly.cpp.obj
 Resonance.exe: CMakeFiles/Resonance.dir/build.make
 Resonance.exe: _deps/sfml-build/lib/libsfml-graphics.a
 Resonance.exe: _deps/sfml-build/lib/libsfml-window.a
@@ -188,7 +222,7 @@ Resonance.exe: _deps/sfml-build/lib/libfreetype.a
 Resonance.exe: CMakeFiles/Resonance.dir/linkLibs.rsp
 Resonance.exe: CMakeFiles/Resonance.dir/objects1.rsp
 Resonance.exe: CMakeFiles/Resonance.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Resonance.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Resonance.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Resonance.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

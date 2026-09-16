@@ -23,6 +23,8 @@ add_executable(Resonance
     src/Generator.cpp
     src/Terminal.cpp
     src/World.cpp
+    src/ResonancePulse.cpp
+    src/Anomaly.cpp
 )
 
 target_link_libraries(Resonance PRIVATE

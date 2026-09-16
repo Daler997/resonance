@@ -3,46 +3,31 @@
 #include "Interactable.hpp"
 #include <vector>
 
-
 class InteractionManager
 {
-
 public:
-
-
     static Interactable* find(
-        std::vector<Interactable*>& objects,
-        sf::Vector2f playerPosition
-    )
+        const std::vector<Interactable*>& objects,
+        sf::Vector2f playerPosition,
+        float maxDistance = 90.f)
     {
+        Interactable* result = nullptr;
+        float bestDistance = maxDistance;
 
-        Interactable* result =
-            nullptr;
-
-
-        float minDistance =
-            90.f;
-
-
-        for(auto* object : objects)
+        for (Interactable* object : objects)
         {
+            if (!object || !object->isInteractable())
+                continue;
 
-            float d =
-                object->distanceTo(
-                    playerPosition
-                );
+            const float distance = object->distanceTo(playerPosition);
 
-
-            if(d < minDistance)
+            if (distance < bestDistance)
             {
-                minDistance=d;
-                result=object;
+                bestDistance = distance;
+                result = object;
             }
-
         }
-
 
         return result;
     }
-
 };

@@ -791,6 +791,30 @@ vorbisfile/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\vorbis-build\lib\CMakeFiles\vorbisfile.dir\build.make _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/build
 .PHONY : vorbisfile/fast
 
+src/Anomaly.obj: src/Anomaly.cpp.obj
+.PHONY : src/Anomaly.obj
+
+# target to build an object file
+src/Anomaly.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Resonance.dir\build.make CMakeFiles/Resonance.dir/src/Anomaly.cpp.obj
+.PHONY : src/Anomaly.cpp.obj
+
+src/Anomaly.i: src/Anomaly.cpp.i
+.PHONY : src/Anomaly.i
+
+# target to preprocess a source file
+src/Anomaly.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Resonance.dir\build.make CMakeFiles/Resonance.dir/src/Anomaly.cpp.i
+.PHONY : src/Anomaly.cpp.i
+
+src/Anomaly.s: src/Anomaly.cpp.s
+.PHONY : src/Anomaly.s
+
+# target to generate assembly for a file
+src/Anomaly.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Resonance.dir\build.make CMakeFiles/Resonance.dir/src/Anomaly.cpp.s
+.PHONY : src/Anomaly.cpp.s
+
 src/Door.obj: src/Door.cpp.obj
 .PHONY : src/Door.obj
 
@@ -862,6 +886,30 @@ src/Player.s: src/Player.cpp.s
 src/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Resonance.dir\build.make CMakeFiles/Resonance.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
+
+src/ResonancePulse.obj: src/ResonancePulse.cpp.obj
+.PHONY : src/ResonancePulse.obj
+
+# target to build an object file
+src/ResonancePulse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Resonance.dir\build.make CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.obj
+.PHONY : src/ResonancePulse.cpp.obj
+
+src/ResonancePulse.i: src/ResonancePulse.cpp.i
+.PHONY : src/ResonancePulse.i
+
+# target to preprocess a source file
+src/ResonancePulse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Resonance.dir\build.make CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.i
+.PHONY : src/ResonancePulse.cpp.i
+
+src/ResonancePulse.s: src/ResonancePulse.cpp.s
+.PHONY : src/ResonancePulse.s
+
+# target to generate assembly for a file
+src/ResonancePulse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Resonance.dir\build.make CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.s
+.PHONY : src/ResonancePulse.cpp.s
 
 src/Terminal.obj: src/Terminal.cpp.obj
 .PHONY : src/Terminal.obj
@@ -996,6 +1044,9 @@ help:
 	@echo ... vorbis
 	@echo ... vorbisenc
 	@echo ... vorbisfile
+	@echo ... src/Anomaly.obj
+	@echo ... src/Anomaly.i
+	@echo ... src/Anomaly.s
 	@echo ... src/Door.obj
 	@echo ... src/Door.i
 	@echo ... src/Door.s
@@ -1005,6 +1056,9 @@ help:
 	@echo ... src/Player.obj
 	@echo ... src/Player.i
 	@echo ... src/Player.s
+	@echo ... src/ResonancePulse.obj
+	@echo ... src/ResonancePulse.i
+	@echo ... src/ResonancePulse.s
 	@echo ... src/Terminal.obj
 	@echo ... src/Terminal.i
 	@echo ... src/Terminal.s

@@ -648,12 +648,12 @@ CMakeFiles/Resonance.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
 CMakeFiles/Resonance.dir/all: _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Resonance.dir\build.make CMakeFiles/Resonance.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Resonance.dir\build.make CMakeFiles/Resonance.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=5,6 "Built target Resonance"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=5,6,7 "Built target Resonance"
 .PHONY : CMakeFiles/Resonance.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Resonance.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Resonance.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : CMakeFiles/Resonance.dir/rule
@@ -665,7 +665,7 @@ Resonance: CMakeFiles/Resonance.dir/rule
 # codegen rule for target.
 CMakeFiles/Resonance.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Resonance.dir\build.make CMakeFiles/Resonance.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=5,6 "Finished codegen for target Resonance"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=5,6,7 "Finished codegen for target Resonance"
 .PHONY : CMakeFiles/Resonance.dir/codegen
 
 # clean rule for target.
@@ -774,8 +774,8 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/clean:
 
 # All Build rule for target.
 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
-_deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all: _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/all
 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all: _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/all
+_deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all: _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/all
 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all: _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/all
 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all: _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Network\CMakeFiles\sfml-network.dir\build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/depend
@@ -812,12 +812,12 @@ _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/clean:
 _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\mbedtls-build\library\CMakeFiles\mbedcrypto.dir\build.make _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\mbedtls-build\library\CMakeFiles\mbedcrypto.dir\build.make _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target mbedcrypto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target mbedcrypto"
 .PHONY : _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/rule
@@ -829,7 +829,7 @@ mbedcrypto: _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/rule
 # codegen rule for target.
 _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\mbedtls-build\library\CMakeFiles\mbedcrypto.dir\build.make _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Finished codegen for target mbedcrypto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Finished codegen for target mbedcrypto"
 .PHONY : _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/codegen
 
 # clean rule for target.
@@ -844,12 +844,12 @@ _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/clean:
 _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/all: _deps/mbedtls-build/library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\mbedtls-build\library\CMakeFiles\mbedx509.dir\build.make _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\mbedtls-build\library\CMakeFiles\mbedx509.dir\build.make _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=57,58,59 "Built target mbedx509"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=57,58,59,60 "Built target mbedx509"
 .PHONY : _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/rule
@@ -861,7 +861,7 @@ mbedx509: _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/rule
 # codegen rule for target.
 _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\mbedtls-build\library\CMakeFiles\mbedx509.dir\build.make _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=57,58,59 "Finished codegen for target mbedx509"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=57,58,59,60 "Finished codegen for target mbedx509"
 .PHONY : _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/codegen
 
 # clean rule for target.
@@ -877,12 +877,12 @@ _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/all: _deps/mbedtls-build/libr
 _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/all: _deps/mbedtls-build/library/CMakeFiles/mbedx509.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\mbedtls-build\library\CMakeFiles\mbedtls.dir\build.make _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\mbedtls-build\library\CMakeFiles\mbedtls.dir\build.make _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=50,51,52,53,54,55,56 "Built target mbedtls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=51,52,53,54,55,56 "Built target mbedtls"
 .PHONY : _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 39
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/rule
@@ -894,7 +894,7 @@ mbedtls: _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/rule
 # codegen rule for target.
 _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\mbedtls-build\library\CMakeFiles\mbedtls.dir\build.make _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=50,51,52,53,54,55,56 "Finished codegen for target mbedtls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=51,52,53,54,55,56 "Finished codegen for target mbedtls"
 .PHONY : _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/codegen
 
 # clean rule for target.
@@ -909,12 +909,12 @@ _deps/mbedtls-build/library/CMakeFiles/mbedtls.dir/clean:
 _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\libssh2-build\src\CMakeFiles\libssh2_static.dir\build.make _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\libssh2-build\src\CMakeFiles\libssh2_static.dir\build.make _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21 "Built target libssh2_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21 "Built target libssh2_static"
 .PHONY : _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/rule
@@ -926,7 +926,7 @@ libssh2_static: _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/rule
 # codegen rule for target.
 _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\libssh2-build\src\CMakeFiles\libssh2_static.dir\build.make _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21 "Finished codegen for target libssh2_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21 "Finished codegen for target libssh2_static"
 .PHONY : _deps/libssh2-build/src/CMakeFiles/libssh2_static.dir/codegen
 
 # clean rule for target.
@@ -977,12 +977,12 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/clean:
 _deps/freetype-build/CMakeFiles/freetype.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\freetype-build\CMakeFiles\freetype.dir\build.make _deps/freetype-build/CMakeFiles/freetype.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\freetype-build\CMakeFiles\freetype.dir\build.make _deps/freetype-build/CMakeFiles/freetype.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=8,9 "Built target freetype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=8,9,10 "Built target freetype"
 .PHONY : _deps/freetype-build/CMakeFiles/freetype.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/freetype-build/CMakeFiles/freetype.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/freetype-build/CMakeFiles/freetype.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/freetype-build/CMakeFiles/freetype.dir/rule
@@ -994,7 +994,7 @@ freetype: _deps/freetype-build/CMakeFiles/freetype.dir/rule
 # codegen rule for target.
 _deps/freetype-build/CMakeFiles/freetype.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\freetype-build\CMakeFiles\freetype.dir\build.make _deps/freetype-build/CMakeFiles/freetype.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=8,9 "Finished codegen for target freetype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=8,9,10 "Finished codegen for target freetype"
 .PHONY : _deps/freetype-build/CMakeFiles/freetype.dir/codegen
 
 # clean rule for target.
@@ -1009,12 +1009,12 @@ _deps/freetype-build/CMakeFiles/freetype.dir/clean:
 _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\harfbuzz-build\CMakeFiles\harfbuzz.dir\build.make _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\harfbuzz-build\CMakeFiles\harfbuzz.dir\build.make _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=10 "Built target harfbuzz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=11 "Built target harfbuzz"
 .PHONY : _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/rule
@@ -1026,7 +1026,7 @@ harfbuzz: _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/rule
 # codegen rule for target.
 _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\harfbuzz-build\CMakeFiles\harfbuzz.dir\build.make _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=10 "Finished codegen for target harfbuzz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=11 "Finished codegen for target harfbuzz"
 .PHONY : _deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/codegen
 
 # clean rule for target.
@@ -1937,12 +1937,12 @@ _deps/sheenbidi-build/CMakeFiles/ContinuousSubmit.dir/clean:
 _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\sheenbidi-build\CMakeFiles\SheenBidi.dir\build.make _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\sheenbidi-build\CMakeFiles\SheenBidi.dir\build.make _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=7 "Built target SheenBidi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num= "Built target SheenBidi"
 .PHONY : _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/rule
@@ -1954,7 +1954,7 @@ SheenBidi: _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/rule
 # codegen rule for target.
 _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\sheenbidi-build\CMakeFiles\SheenBidi.dir\build.make _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=7 "Finished codegen for target SheenBidi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num= "Finished codegen for target SheenBidi"
 .PHONY : _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/codegen
 
 # clean rule for target.
@@ -1969,9 +1969,9 @@ _deps/sheenbidi-build/CMakeFiles/SheenBidi.dir/clean:
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/ogg-build/CMakeFiles/ogg.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
+_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
-_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=61,62,63,64,65,66,67,68 "Built target sfml-audio"
@@ -1979,7 +1979,7 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-buil
 
 # Build rule for subdir invocation for target.
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule
@@ -2006,12 +2006,12 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/clean:
 _deps/ogg-build/CMakeFiles/ogg.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\ogg-build\CMakeFiles\ogg.dir\build.make _deps/ogg-build/CMakeFiles/ogg.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ogg-build\CMakeFiles\ogg.dir\build.make _deps/ogg-build/CMakeFiles/ogg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=60 "Built target ogg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num= "Built target ogg"
 .PHONY : _deps/ogg-build/CMakeFiles/ogg.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ogg-build/CMakeFiles/ogg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/ogg-build/CMakeFiles/ogg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/ogg-build/CMakeFiles/ogg.dir/rule
@@ -2023,7 +2023,7 @@ ogg: _deps/ogg-build/CMakeFiles/ogg.dir/rule
 # codegen rule for target.
 _deps/ogg-build/CMakeFiles/ogg.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\ogg-build\CMakeFiles\ogg.dir\build.make _deps/ogg-build/CMakeFiles/ogg.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num=60 "Finished codegen for target ogg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\RESONANCE\build\CMakeFiles --progress-num= "Finished codegen for target ogg"
 .PHONY : _deps/ogg-build/CMakeFiles/ogg.dir/codegen
 
 # clean rule for target.
@@ -2043,7 +2043,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all: _deps/ogg-build/CMakeFiles
 
 # Build rule for subdir invocation for target.
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/rule
@@ -2075,7 +2075,7 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all: _deps/ogg-build/CMakeFiles/ogg
 
 # Build rule for subdir invocation for target.
 _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/rule
@@ -2108,7 +2108,7 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all: _deps/vorbis-build/lib/CMak
 
 # Build rule for subdir invocation for target.
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/rule
@@ -2141,7 +2141,7 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all: _deps/vorbis-build/lib/CMa
 
 # Build rule for subdir invocation for target.
 _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\RESONANCE\build\CMakeFiles 0
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/rule

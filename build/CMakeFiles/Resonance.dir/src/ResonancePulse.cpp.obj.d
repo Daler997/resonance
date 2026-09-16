@@ -1,4 +1,5 @@
-CMakeFiles/Resonance.dir/src/main.cpp.obj: D:\RESONANCE\src\main.cpp \
+CMakeFiles/Resonance.dir/src/ResonancePulse.cpp.obj: \
+ D:\RESONANCE\src\ResonancePulse.cpp D:\RESONANCE\src\ResonancePulse.hpp \
  D:/RESONANCE/build/_deps/sfml-src/include/SFML/Graphics.hpp \
  D:/RESONANCE/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
  D:/RESONANCE/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
@@ -312,11 +313,4 @@ CMakeFiles/Resonance.dir/src/main.cpp.obj: D:\RESONANCE\src\main.cpp \
  D:/msys2/ucrt64/include/c++/16.1.0/bits/algorithmfwd.h \
  D:/msys2/ucrt64/include/c++/16.1.0/bits/stl_heap.h \
  D:/msys2/ucrt64/include/c++/16.1.0/bits/uniform_int_dist.h \
- D:/msys2/ucrt64/include/c++/16.1.0/pstl/glue_algorithm_defs.h \
- D:\RESONANCE\src\Anomaly.hpp D:\RESONANCE\src\Door.hpp \
- D:\RESONANCE\src\EchoNode.hpp D:\RESONANCE\src\Interactable.hpp \
- D:\RESONANCE\src\Inventory.hpp D:\RESONANCE\src\Generator.hpp \
- D:\RESONANCE\src\HUD.hpp D:\RESONANCE\src\InteractionManager.hpp \
- D:\RESONANCE\src\Keycard.hpp D:\RESONANCE\src\Player.hpp \
- D:\RESONANCE\src\ResonancePulse.hpp D:\RESONANCE\src\Terminal.hpp \
- D:\RESONANCE\src\World.hpp
+ D:/msys2/ucrt64/include/c++/16.1.0/pstl/glue_algorithm_defs.h

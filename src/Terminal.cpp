@@ -20,6 +20,9 @@ Terminal::Terminal(sf::Vector2f position)
 
 void Terminal::interact()
 {
+    if (!objectiveComplete)
+        return;
+
     active = !active;
     screen.setFillColor(
         active ? sf::Color(80, 255, 120)
@@ -33,8 +36,31 @@ float Terminal::distanceTo(sf::Vector2f point) const
     return std::sqrt(dx * dx + dy * dy);
 }
 
+std::string Terminal::getHint() const
+{
+    if (!objectiveComplete)
+        return "Terminal: SYSTEM LOCKED";
+
+    return active ? "Terminal: EXTRACTION RUNNING" : "[E] Start extraction";
+}
+
 void Terminal::draw(sf::RenderWindow& window) const
 {
     window.draw(body);
     window.draw(screen);
+}
+
+void Terminal::setObjectiveComplete(bool complete)
+{
+    objectiveComplete = complete;
+
+    if (!objectiveComplete)
+        screen.setFillColor(sf::Color(50, 150, 210));
+    else
+        screen.setFillColor(sf::Color(255, 210, 70));
+}
+
+bool Terminal::isCompleted() const
+{
+    return objectiveComplete && active;
 }
